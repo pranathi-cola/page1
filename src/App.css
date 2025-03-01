@@ -1,0 +1,102 @@
+.business-info {
+  background-color: #ff9888; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  align-self: center;
+  padding: 20px;
+}
+
+.upload-container {
+  background-color: white; 
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.drop-zone {
+  border: 1px dashed #f4a393;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #fff0ee;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.credit-automation {
+  font-size: small;
+  color: grey;
+  padding: 10px;
+}
+
+.upload-excel {
+  font-size: x-large;
+  font: bolder;
+  padding-bottom: 10px;
+}
+
+.file-image {
+  max-width: 50%;
+  height: auto;
+}
+
+.send-files {
+  font-size: medium;
+}
+
+.click-drag {
+  font-size: x-small;
+  color: gray;
+}
+
+.drop-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  font-weight: bold;
+}
+
+.cloud-icon {
+  font-size: 35px;
+  color: #d36f5f;
+  margin-bottom: 10px;
+}
+
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.upload-btn {
+  background-color: #f4a393;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #e08374;
+  transform: scale(1.05);
+}
